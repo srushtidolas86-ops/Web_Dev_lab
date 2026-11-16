@@ -1,11 +1,25 @@
-# P1 – Project setup
+# P1 – Project folder and terminal navigation
 
-I started by making a folder for the portfolio project and keeping the files organised. The main page is in `portfolio/index.html`. The CSS and JavaScript are in their own folders so the code is easier to find and edit.
+## Aim
+Create a project folder and practise moving around it using the terminal.
 
-## Files
-- `portfolio/index.html`
-- `portfolio/css/style.css`
-- `portfolio/js/script.js`
+## Steps
+1. Open Terminal.
+2. Move to the folder where you keep your coding work. For example: `cd ~/Desktop`.
+3. Create and enter the project folder:
+   ```bash
+   mkdir portfolio-lab
+   cd portfolio-lab
+   ```
+4. Check the current location with `pwd`.
+5. List the files with `ls`.
+6. Open the folder in VS Code with `code .` (if the VS Code shell command is installed).
 
-## What I learned
-A clean folder structure makes it easier to work on a project without mixing HTML, CSS and JavaScript.
+## What I should understand
+- `pwd` shows the current directory.
+- `ls` lists files and folders.
+- `cd` changes the directory.
+- `mkdir` creates a folder.
+
+## Result
+A project folder is ready for the portfolio files.
