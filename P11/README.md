@@ -1,6 +1,14 @@
-# P11 – Interactive navigation
+# P11 – Newspaper-style three-column layout with CSS Grid
 
-The navigation bar links to sections on the same page. Smooth scrolling is enabled in CSS, and JavaScript highlights the section that is currently being viewed. On smaller screens, the menu can be opened and closed.
+## Aim
+Create a newspaper-inspired page with a main story and supporting stories in three columns.
 
-## What I learned
-Anchor links make a long page easier to explore. A clear active link helps visitors know where they are.
+## CSS concepts
+- `display: grid`
+- `grid-template-columns`
+- `gap`
+- `grid-column` to make a story span columns
+- Media queries to reduce the column count
+
+## What I should understand
+Grid is useful when the layout needs rows and columns together.
