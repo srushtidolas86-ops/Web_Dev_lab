@@ -1,9 +1,17 @@
-# P5 – Skills
+# P5 – Semantic bio page
 
-The skills section uses small cards for technical and non-technical skills. I included HTML, CSS, JavaScript, Java, communication and teamwork as examples.
+## Aim
+Create a small biography page using meaningful HTML elements.
 
-## What I learned
-Cards help keep related information together. I should only list skills I have actually tried or am currently learning.
+## Files
+- `index.html`
+- `style.css`
 
-## Before submitting
-Remove or edit any skill that does not describe your experience.
+## HTML elements used
+`header`, `main`, `section`, `article`, `figure`, `figcaption` and `footer`.
+
+## What I should understand
+Semantic elements describe the purpose of content. They make the page structure easier to read and maintain.
+
+## Personalise it
+Replace the sample biography and initials with information you are comfortable sharing.
