@@ -1,9 +1,17 @@
-# P6 – Projects
+# P6 – Full portfolio page structure in semantic HTML
 
-The projects section has cards with a title, description and technologies used. One card describes this portfolio and the other is a placeholder for another project.
+## Aim
+Build the main sections of a portfolio using semantic HTML.
 
-## What I learned
-A project description should explain what the project does and mention the tools used.
+## Sections
+- Header and navigation
+- Introduction
+- About
+- Education
+- Skills
+- Projects
+- Contact
+- Footer
 
-## Before submitting
-Add your real projects, screenshots and working project links. Do not leave the sample project card as if it were completed work.
+## What I should understand
+Use `header` for introductory/navigation content, `nav` for navigation, `main` for the main page content, `section` for grouped topics and `footer` for closing information. Keep one clear main heading for the page.
