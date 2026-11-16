@@ -1,6 +1,14 @@
-# P10 – Dark mode and light mode
+# P10 – Portfolio header and footer with advanced Flexbox
 
-I added a button that switches the page between its normal colours and a dark theme. JavaScript adds or removes a CSS class on the body, and the CSS variables update the colours.
+## Aim
+Build a header and footer with flexible alignment and spacing.
 
-## What I learned
-A small JavaScript event can change the appearance of the whole page without duplicating the styles.
+## CSS concepts
+- Flex containers and items
+- `flex: 1`
+- `flex-wrap`
+- `margin-inline-start: auto`
+- Responsive alignment
+
+## What I should understand
+Flexbox distributes available space and can keep elements aligned even when the content length changes.
