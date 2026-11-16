@@ -1,9 +1,22 @@
-# P4 – Education
+# P4 – GitHub README and version tags
 
-I used a timeline-style layout to show education details. Each entry has a year, course or qualification, institution and a short note.
+## Aim
+Explain the project on GitHub and mark a version using a Git tag.
 
-## What I learned
-Using separate cards makes education details easier to read.
+## README checklist
+- Project name and a short description
+- Technologies used
+- How to open/run the project
+- Folder structure
+- Screenshots (optional)
+- Author details (only details I want public)
 
-## Before submitting
-Check the college, school, course and year details and replace the placeholders.
+## Version tag commands
+```bash
+git tag -a v1.0 -m "First portfolio version"
+git push origin v1.0
+git tag
+```
+
+## What I should understand
+A README helps someone understand the repository without opening every file. A version tag marks an important point in the project's history.
