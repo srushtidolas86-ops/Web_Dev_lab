@@ -1,9 +1,25 @@
-# P2 – Home section
+# P2 – Portfolio repo with an initial commit
 
-The home section is the first thing a visitor sees. I added an introduction, a short welcome message, a simple profile placeholder and links that take visitors to other parts of the page.
+## Aim
+Create a Git repository for the portfolio and save its first version.
 
-## What I learned
-The home section should tell visitors who the website belongs to and give them a clear way to explore it.
+## Commands
+Run these inside the project folder:
+```bash
+git init
+git status
+git add .
+git commit -m "Initial portfolio setup"
+```
 
-## Before submitting
-Replace the sample name and profile initials with your own details.
+To connect an existing GitHub repository:
+```bash
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git push -u origin main
+```
+
+If a remote named `origin` already exists, check it with `git remote -v` instead of adding it again.
+
+## What I should understand
+Git tracks changes locally. A commit saves a snapshot, and pushing sends commits to GitHub.
