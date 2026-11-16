@@ -1,9 +1,13 @@
-# P7 – Hobbies and interests
+# P7 – Design tokens and typography system in CSS
 
-This section shows a few interests outside academics using simple labels and icons.
+## Aim
+Use CSS custom properties (design tokens) for consistent colours, spacing and typography.
 
-## What I learned
-A portfolio can include interests outside coding too. They give visitors a more complete picture of the person.
+## Concepts used
+- `:root` custom properties
+- Font family and font sizes
+- Line height and font weights
+- Consistent spacing and colour values
 
-## Before submitting
-Change the examples to hobbies you actually enjoy.
+## What I should understand
+Changing a token in one place updates every element that uses it. This makes the stylesheet easier to maintain.
