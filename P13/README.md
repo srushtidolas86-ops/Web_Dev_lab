@@ -1,14 +1,12 @@
-# P13 – Testing and final checks
+# P13 – Choosing between Flexbox and Grid for a shared layout
 
-After building the page, I should test the links, theme button, navigation menu and contact form. I should also open the page at different screen widths and check that there is no horizontal scrolling.
+## Aim
+Compare Flexbox and Grid and use each where it makes sense.
 
-## Final checklist
-- [ ] Replace all sample personal details.
-- [ ] Add a real profile photo if required.
-- [ ] Add only genuine projects and achievements.
-- [ ] Update GitHub, LinkedIn and email links.
-- [ ] Test the page on desktop and mobile sizes.
-- [ ] Check that the CSS and JavaScript files load correctly.
+## In this example
+- Flexbox is used for the page header/navigation because it is mainly a one-dimensional row.
+- Grid is used for the project area because it needs rows and columns.
+- Both layouts use the same spacing and colour tokens.
 
-## What I learned
-Testing is part of building a website. A page that looks fine on one screen still needs to be checked on other devices.
+## What I should understand
+Flexbox and Grid are not competitors. Choose based on the layout: Flexbox for arranging items in one direction, Grid for a two-dimensional structure.
