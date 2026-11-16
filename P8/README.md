@@ -1,9 +1,13 @@
-# P8 – Achievements
+# P8 – Sticky navbar and card overlay using CSS positioning
 
-The achievements section is a place to add certificates, workshops, competitions and other milestones.
+## Aim
+Keep the navigation visible while scrolling and place a label over a card.
 
-## What I learned
-It is better to show genuine achievements than to add items just to fill the page.
+## CSS concepts
+- `position: sticky` for the navbar
+- `position: relative` on the card
+- `position: absolute` on the overlay label
+- `z-index` to control stacking
 
-## Before submitting
-Add only real achievements with their correct names and years. If you do not have any to add yet, keep the section simple.
+## What I should understand
+An absolutely positioned child is placed relative to its nearest positioned ancestor. The card therefore uses `position: relative`.
