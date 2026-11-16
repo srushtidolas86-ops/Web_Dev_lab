@@ -1,9 +1,23 @@
-# P3 – About me
+# P3 – Feature-branch Git workflow
 
-This section gives a little more information about the person behind the portfolio. It has space for interests, hobbies and goals.
+## Aim
+Make changes on a separate branch instead of working directly on main.
 
-## What I learned
-A portfolio is not only a list of technical skills. A short personal introduction also helps visitors understand what I am interested in.
+## Commands
+```bash
+git switch -c feature/portfolio-section
+# make and save the changes
+git status
+git add .
+git commit -m "Add portfolio section"
+git push -u origin feature/portfolio-section
+```
 
-## Before submitting
-Edit the sample text so it describes you accurately.
+After checking the branch on GitHub, create a pull request into `main`. Once it is reviewed and merged:
+```bash
+git switch main
+git pull origin main
+```
+
+## What I should understand
+A feature branch keeps a piece of work separate until it is ready to merge. Use a clear branch name and a commit message that describes the change.
